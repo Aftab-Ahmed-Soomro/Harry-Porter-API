@@ -7,7 +7,7 @@ import { housesRoute } from "./Routes/Constants/HousesRoute.js";
 const app = express();
 dotenv.config();
 
-const PORT = process.env.PORT || 8000;
+const PORT = process.env.PORT || 3000;
 
 app.get("/",(req, res)=> {
     res.status(200).send("Welcome To Harry Porter API");
